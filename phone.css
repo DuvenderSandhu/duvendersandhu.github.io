@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1000px) {
+    .personaldetail{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .containerhead {
+    font-size: 0.8rem;
+        
+    }
+    .subhead {
+        font-size: 1.4rem;}
+    .box{
+        padding: 2rem;
+        padding-top: 0px;
+        width: 35%;
+    }
+    .ps p {
+        font-size: 0.8rem;
+    }
+.img{
+    padding: 1rem;
+}
+
+
+
+
+
+  .right p{
+      font-size: 0.8rem;
+  }
+  .aboutcontainer{
+    flex-direction: column;
+    padding: 0px;
+}
+
+.aboutleft{
+    width: 95%;
+    padding: 0.5rem;
+}
+.aboutright{
+    width: 95%;
+    padding: 0.5rem;
+}
+.progressBars{
+    width: 50%;
+}
+.ps{
+    padding-right: 2rem;
+}
+
+.box{
+    width: 70%;
+    margin: 15px 0px;
+}
+.boxes{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imgbox {
+    height: unset;
+}
+
+.input{
+    width: 90%;
+    height: 25px;
+}
+.textarea{
+    width: 90%;
+    height: 70px;
+
+}
+.heading{
+    font-size: 1.5rem;
+}
+.serviceboxes{
+    justify-content: center;
+}
+.servicebox{
+    width: 70%;
+}
+.service p{
+    margin: 0px 15px;
+    text-align: justify;
+}
+.about{
+    padding: 0px;
+}
+.footer{
+        font-size: 0.8rem;
+}
+
+
+
+
+.contactpara{
+    font-size: 0.8rem;
+}
+
+.heading{
+    font-size: 1.2rem;
+}
+.contactform{
+    flex-direction: column;
+    align-items: center;
+}
+.contactleft{
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.contactright{
+    width: 90%;
+}
+.ham{
+    display: block;
+}
+nav #pul{
+    display: none;
+}
+
+.workimg{
+    height: 50%;
+    width: 100%;
+}
+#snav{
+
+flex-direction: column;
+
+    justify-content: center;
+}
+#sul{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+}
