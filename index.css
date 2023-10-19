@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Clear Sans Regular";
+}
+body{
+    overflow-x: hidden;
+
+}
+
+.homepage{
+    min-height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+
+    
+}
+.left{
+    height: 100vh;
+    width: 50vw;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.right{
+    height: 100vh;
+    width: 50vw;
+    background-color: #EDF0F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 1rem;
+}
+.left h1{
+    font-family: 'Space Mono';
+    font-weight: 900;
+    font-size: 2.2rem;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+.left .p{
+    font-size: 1.5rem;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 1rem 5rem;
+    cursor: pointer;
+    display: inline;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.right h1{
+    font-weight: lighter;
+    font-size: 3rem;
+}
+.right>p{
+    padding: 2rem;
+    text-align: center;
+    width: 70%;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+.right .btns{
+    margin-top: 4rem;
+}
+.icons{
+    margin: 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap:2rem;
+}
+.icons>.icon{
+    cursor: pointer;
+}
+
+.secondpage{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+
+}
+.secondpage h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.educations{
+    display: flex;
+    margin: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    gap:2rem;
+    overflow-x: hidden;
+
+}
+.education img{
+    width: 200px;
+    height: 200px;
+    border-radius: 130px;
+}
+.education h2,.subhead{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-2{
+    margin: 1rem 0px;
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+
+}
+
+.projects{
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+
+}
+.box>img{
+    height: 275px;
+    width: 350px;
+}
+.box h3{
+    margin: 1rem 0px;
+}
+.box{
+    width: 320px;
+    padding: 0.5rem;
+    gap:1rem;
+}
+.box p{
+    text-align: justify;
+}
+.certificates{
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+
+}
+
+.certificatesarea{
+    margin:4rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.certificates img{
+    width: 300px;
+}
+.certificate2 img{
+    width: 400px;
+}
+.certificate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.down{
+    position: relative;
+    top:6rem;
+    text-transform: uppercase;
+}
+.up{
+    position: relative;
+    bottom:6rem;
+    text-transform: uppercase;
+
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: center;
+}
+.projects .btns{
+    margin: 2rem 0px;
+}
+.footer{
+    padding: 2rem;
+}
+.footer .flex{
+    padding: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+
+
+}
+
+@media screen and (max-width: 1100px) {
+    .homepage{
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxes{
+       justify-content: center;
+    }
+    .left,.right{
+        width: unset;
+        padding: 1rem;
+    }
+    .p{
+        text-align: center;
+    }
+    .right>h1{
+        text-align: center;
+    }
+    .left h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .certificatesarea {
+      flex-wrap: wrap;
+    }
+    .heading{
+        margin: 1rem;
+        font-size: 2rem;
+    }
+    .educations{
+        flex-wrap: wrap;
+
+    }
+    .down,.up{
+        top: 0px;
+        bottom: 0px;
+    }
+    .up{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+    .certificate{
+        gap:2rem;
+    }
+    .certificate2 img{
+        width: 300px;
+    }
+    .flex{
+        flex-direction: column;
+        gap:1rem;
+    }
+  }
