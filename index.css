@@ -9,8 +9,9 @@ body{
     overflow-x: hidden;
 
 }
-.btns a{
+.btns a,.btn{
     text-decoration: none;
+    margin: 1rem;
 }
 .homepage{
     min-height: 100vh;
@@ -77,6 +78,7 @@ body{
 }
 .right .btns{
     margin-top: 4rem;
+    
 }
 .icons{
     margin: 2rem 1rem;
@@ -87,6 +89,7 @@ body{
 .icons>.icon{
     cursor: pointer;
 }
+
 
 .secondpage{
     min-height: 100vh;
@@ -156,6 +159,7 @@ body{
 .box>img{
     height: 275px;
     width: 350px;
+    border:1px solid black;
 }
 
 .box h3{
