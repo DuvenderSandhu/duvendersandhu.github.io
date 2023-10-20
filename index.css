@@ -9,7 +9,9 @@ body{
     overflow-x: hidden;
 
 }
-
+.btns a{
+    text-decoration: none;
+}
 .homepage{
     min-height: 100vh;
     display: flex;
@@ -112,6 +114,7 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 130px;
+    object-fit: cover;
 }
 .education h2,.subhead{
     font-size: 1.2rem;
@@ -154,6 +157,7 @@ body{
     height: 275px;
     width: 350px;
 }
+
 .box h3{
     margin: 1rem 0px;
 }
@@ -183,9 +187,35 @@ body{
 }
 .certificates img{
     width: 300px;
+    transition:1s ease-in-out ;
+    /* transition: 0.3s ease-in-out ; */
+    cursor: pointer;
+    position: static;
+    
 }
 .certificate2 img{
     width: 400px;
+    transition: 1s ease-in-out ;
+    /* transition: 0.3s ease-in-out ; */
+    cursor: pointer;
+    z-index: 1;
+    
+}
+/* .verify{
+    position: relative;
+    bottom: 17rem;
+    z-index: -1;
+    color: white;
+    font-size: 2rem;
+}
+.verify2{
+    bottom: 32rem;
+} */
+
+.certificate>img:hover{
+    z-index: 2;
+    scale: 1.7;
+    
 }
 .certificate{
     display: flex;
@@ -224,8 +254,9 @@ body{
     justify-content: space-around;
     align-items: center;
     overflow-x: hidden;
-
-
+}
+.hidden{
+    display: none;
 }
 
 @media screen and (max-width: 1100px) {
