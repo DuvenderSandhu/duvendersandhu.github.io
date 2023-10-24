@@ -90,6 +90,47 @@ body{
     cursor: pointer;
 }
 
+.services{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+.innerservice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+.services .service{
+    padding: 1rem;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.services h1{
+    text-transform: uppercase;
+    margin: 2rem 0px;
+}
+.service h2{
+    text-align: center;
+}
+.service img{
+    width: 60px;
+}
+.service p{
+    text-align: justify;
+    font-size: 1.1rem;
+    
+}
+
 
 .secondpage{
     min-height: 100vh;
@@ -271,6 +312,10 @@ body{
     .boxes{
        justify-content: center;
     }
+    .services .service{
+    width: 80%;
+
+    }
     .left,.right{
         width: unset;
         padding: 1rem;
@@ -284,6 +329,9 @@ body{
     .left h1{
         font-size: 2rem;
         text-align: center;
+    }
+    .innerservice{
+        justify-content: center;
     }
     .certificatesarea {
       flex-wrap: wrap;
